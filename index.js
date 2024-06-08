@@ -34,8 +34,8 @@ export default function Home() {
       const address = await signer.getAddress();
       const balance = await tokenContract.balanceOf(address);
       setBalanceOfCryptoDevTokens(balance);
-    } catch (err) {
-      console.error(err);
+    } catch (error) {
+      console.error(error);
       setBalanceOfCryptoDevTokens(zero);
     }
   };
