@@ -18,8 +18,8 @@ export default function Home() {
   const web3ModalRef = useRef();
 
   const getTokensToBeClaimed = async () => {
-    const MAX_TOTAL_SUPPLY = BigInt(100000000000000 * 10 ** 18);
-    setTokensToBeClaimed(6900000);
+    const MAX_TOTAL_SUPPLY = BigInt(1000000000000000 * 10 ** 18);
+    setTokensToBeClaimed(69000000);
   };
 
   const getBalanceOfFCKFTokens = async () => {
