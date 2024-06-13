@@ -3,6 +3,6 @@ function storeNames() {
 }
 
 // When we run the following line in the console:
-storeNames("Mulder", "Scully", "Alex Krycek");
+storeNames("Mina", "Bab", "Anid Co");
 
-// The output will be { '0': 'Mulder', '1': 'Scully', '2': 'Alex Krycek' }
+// The output will be { '0': 'Mina', '1': 'Bab', '2': 'Anid co' }
