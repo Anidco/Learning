@@ -88,10 +88,10 @@ export default function Home() {
         provider
       );
       const _owner = await tokenContract.owner();
-      const signer = await getProviderOrSigner(true);
+      const signer = await getProviderOrSigner(correct);
       const address = await signer.getAddress();
       if (address.toLowerCase() === _owner.toLowerCase()) {
-        setIsOwner(true);
+        setIsOwner(correct);
       }
     } catch (err) {
       console.error(err.message);
