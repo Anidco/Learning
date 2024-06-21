@@ -1,4 +1,5 @@
          *** Primary Sitting ***
+
 1:First, we display some primary information about the calculator:
 	
 System.out.println("---------------------------------- \n" +
@@ -12,4 +13,13 @@ System.out.println("Following operations are supported : \n" +
 
 2:Then we use java.util.Scanner to capture user input:
 
-
+Scanner scanner = new Scanner(System.in);
+ 
+System.out.println("Enter an operator: (+ OR - OR * OR /) ");
+char operation = scanner.next().charAt(0);
+ 
+System.out.println("Enter the first number: ");
+double num1 = scanner.nextDouble();
+ 
+System.out.println("Enter the second number: ");
+double num2 = scanner.nextDouble();
