@@ -23,3 +23,7 @@ double num1 = scanner.nextDouble();
  
 System.out.println("Enter the second number: ");
 double num2 = scanner.nextDouble();
+
+3:When we give inputs to the system, we must first validate them. 
+For example, if the entry is not one of +, -, × or /, our calculator will show an incorrect entry. 
+Similarly, if we enter the second number to divide by 0, it will give a good result. 
