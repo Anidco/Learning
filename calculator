@@ -29,3 +29,7 @@ For example, if the entry is not one of +, -, × or /, our calculator will show 
 Similarly, if we enter the second number to divide by 0, it will give a good result. 
 So we implement validations. 
 First, on the position where the operator is invalid:
+
+if (!(operation == '+' || operation == '-' || operation == '*' || operation == '/')) {
+    System.err.println("Invalid Operator. Please use only + or - or * or /");
+}
