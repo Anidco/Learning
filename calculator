@@ -33,3 +33,10 @@ First, on the position where the operator is invalid:
 if (!(operation == '+' || operation == '-' || operation == '*' || operation == '/')) {
     System.err.println("Invalid Operator. Please use only + or - or * or /");
 }
+
+
+4:We can then display errors for invalid operations:
+
+if (operation == '/' && num2 == 0.0) {
+    System.err.println("The second number cannot be zero for division operation.");
+}
