@@ -40,3 +40,8 @@ if (!(operation == '+' || operation == '-' || operation == '*' || operation == '
 if (operation == '/' && num2 == 0.0) {
     System.err.println("The second number cannot be zero for division operation.");
 }
+
+
+5:User's input is first validated. Then the calculation result is displayed as follows:
+
+<number1> <operation> <number2> = <result>
