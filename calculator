@@ -2,7 +2,7 @@
 
 1:First, we display some primary information about the calculator:
 	
-System.out.println("---------------------------------- \n" +
+ System.out.println("---------------------------------- \n" +
   "Welcome to Basic Calculator \n" +
   "----------------------------------");
 System.out.println("Following operations are supported : \n" +
