@@ -62,3 +62,6 @@ if (operation == '+') {
 } else {
     System.err.println("Invalid Operator Specified.");
 }
+
+2:Similarly, we can use a Java switch statement:
+
