@@ -82,3 +82,10 @@ switch (operation) {
         System.err.println("Invalid Operator Specified.");
         break;
 }
+
+We can use a variable to store the result of calculations. 
+As a result, we can display it at the end. 
+In this case, we use System.out.println only once. 
+In addition, the maximum interval for calculation is 2147483647.
+As a result, if we exceed this value, the int data type will overflow. 
+Therefore, we must store the variable in a larger data type, for example, in the double data type.
