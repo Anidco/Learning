@@ -1,3 +1,5 @@
 ### Java tips, tricks and sample code ###
 
 *In this part of the sample Java code article, we will introduce some important tips and tricks that you should follow in the initial stages of learning this language.
+
+-Return an empty collection instead of {Null}
