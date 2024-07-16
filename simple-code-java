@@ -3,3 +3,6 @@
 *In this part of the sample Java code article, we will introduce some important tips and tricks that you should follow in the initial stages of learning this language.
 
 -Return an empty collection instead of {Null}
+
+#If a program returns a collection that has no values, you must ensure that an empty collection is returned, not Null.
+This way you don't have to run a lot of if…else code on Null elements.
