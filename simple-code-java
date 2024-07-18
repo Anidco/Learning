@@ -12,3 +12,7 @@ This way you don't have to run a lot of {if…else} code on {Null} elements.
 public class getLocationName {
     return (null==cityName ? "": cityName);
 }
+
+-Use strings carefully
+
+#If two strings are concatenated using the (+) operator in a for loop, a new String Object is created each time. This will waste memory and reduce time performance. Also, when instantiating the string object, you should not use constructors and this instantiation should be done directly.
