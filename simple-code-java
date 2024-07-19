@@ -18,3 +18,11 @@ public class getLocationName {
 #If two strings are concatenated using the (+) operator in a {for} loop, a new String Object is created each time.
 This will waste memory and reduce time performance. 
 Also, when instantiating the string object, you should not use constructors and this instantiation should be done directly.
+
+#Consider the following example:
+
+  //Slower Instantiation
+  String bad = new String("Yet another string object");
+      
+  //Faster Instantiation
+  String good = "Yet another string object"
