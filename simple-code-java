@@ -26,3 +26,8 @@ Also, when instantiating the string object, you should not use constructors and 
       
   //Faster Instantiation
   String good = "Yet another string object"
+
+-Avoid creating unnecessary objects
+
+#One of the most expensive types of operations in terms of memory consumption in Java is the object creation operation. 
+Therefore, it is recommended that objects be built or instantiated only when necessary.
