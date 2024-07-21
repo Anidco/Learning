@@ -31,3 +31,22 @@ Also, when instantiating the string object, you should not use constructors and 
 
 #One of the most expensive types of operations in terms of memory consumption in Java is the object creation operation. 
 Therefore, it is recommended that objects be built or instantiated only when necessary.
+
+#You can see an example of this in the code below:
+
+import java.util.ArrayList;
+import java.util.List;
+ 
+public class Employees {
+ 
+    private List Employees;
+ 
+    public List getEmployees() {
+ 
+        //initialize only when required
+        if(null == Employees) {
+            Employees = new ArrayList();
+        }
+        return Employees;
+    }
+}
