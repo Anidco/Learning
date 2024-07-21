@@ -34,19 +34,19 @@ Therefore, it is recommended that objects be built or instantiated only when nec
 
 #You can see an example of this in the code below:
 
-import java.util.ArrayList;
-import java.util.List;
+  import java.util.ArrayList;
+  import java.util.List;
  
-public class Employees {
+  public class Employees {
  
-    private List Employees;
+      private List Employees;
  
-    public List getEmployees() {
+      public List getEmployees() {
  
-        //initialize only when required
-        if(null == Employees) {
-            Employees = new ArrayList();
-        }
-        return Employees;
-    }
-}
+          //initialize only when required
+          if(null == Employees) {
+              Employees = new ArrayList();
+          }
+          return Employees;
+      }
+  }
