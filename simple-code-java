@@ -50,3 +50,9 @@ Therefore, it is recommended that objects be built or instantiated only when nec
           return Employees;
       }
   }
+
+-The difficult problem of choosing "Array" or "ArrayList"
+
+#Often, developers are confused about choosing between "Array" and "ArrayList" data structures. 
+Both of these cases have their own strengths and weaknesses. 
+Choosing one of these two in practice depends on your requirements.
