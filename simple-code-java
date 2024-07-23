@@ -1,6 +1,6 @@
 ### Java tips, tricks and sample code ###
 
-*In this part of the sample Java code article, we will introduce some important tips and tricks that you should follow in the initial stages of learning this language.
+In this part of the sample Java code article, we will introduce some important tips and tricks that you should follow in the initial stages of learning this language.
 
 
 -Return an empty collection instead of {Null}
@@ -8,7 +8,7 @@
 #If a program returns a collection that has no values, you must ensure that an empty collection is returned, not {Null}.
 This way you don't have to run a lot of {if…else} code on {Null} elements.
 
-#Example:
+*Example:
 
 public class getLocationName {
     return (null==cityName ? "": cityName);
@@ -21,7 +21,7 @@ public class getLocationName {
 This will waste memory and reduce time performance. 
 Also, when instantiating the string object, you should not use constructors and this instantiation should be done directly.
 
-#Consider the following example:
+*Consider the following example:
 
   //Slower Instantiation
   String bad = new String("Yet another string object");
@@ -35,7 +35,7 @@ Also, when instantiating the string object, you should not use constructors and 
 #One of the most expensive types of operations in terms of memory consumption in Java is the object creation operation. 
 Therefore, it is recommended that objects be built or instantiated only when necessary.
 
-#You can see an example of this in the code below:
+*You can see an example of this in the code below:
 
   import java.util.ArrayList;
   import java.util.List;
