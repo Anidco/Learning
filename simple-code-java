@@ -88,3 +88,10 @@ Choosing one of these two in practice depends on your requirements.
           int[][][] multiArray = new int [3][3][3]; 
       }
   }
+
+Arrays are of fixed size, but list arrays are of variable size. 
+Since the size of the array is fixed, its memory is allocated at the time of declaring the variable of array type. 
+Hence, arrays perform very fast. 
+On the other hand, if we don't know the size of the data in advance, 
+in this case, inserting more data than the capacity of the array will cause an ArrayOutOfBoundException exception, and inserting less items will also waste memory.
+
