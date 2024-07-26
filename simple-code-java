@@ -99,3 +99,5 @@ in this case, inserting more data than the capacity of the array will cause an "
 #Two points:
 *It is easier to add and remove elements to an ArrayList than to an Array.
 *An array can be multidimensional, but an ArrayList can only have one dimension.
+
+-Sometimes Finally doesn't execute after Try
