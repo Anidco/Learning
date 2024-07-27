@@ -121,3 +121,15 @@ Consider the following code snippet:
           }
       }
   }
+
+By looking at this piece of code, you might think that the "println" inside the "finally" block is executed 5 times, but if you run the program, you will notice that the "finally" block is executed only four times. 
+In the fifth execution, the "exit" function is called, and as a result, "finally" will never be called for the fifth time. 
+This is because "System.exit" stops all running threads, including the current one. Even the "finally" block after "try" will not be executed if "exit" is executed.
+
+When "System.exit" is called, the "JVM" performs pre-shutdown cleanup tasks.
+Thus, it first executes all "shutdown" hooks registered using the "Runtime.addShutdownHook" hook.
+This mode is useful because it frees up resources external to the "JVM".
+
+Another reason for this is related to "Finalizers", which are either "System.runFinalizersOnExit" or "Runtime.runFinalizersOnExit". 
+"Finalizers" have long been deprecated. "Finalizers" can only be executed on live objects while they are being manipulated by other threads. 
+In this way, unpredictable results or even deadlocks occur.
