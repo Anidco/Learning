@@ -160,3 +160,12 @@ In this way, unpredictable results or even deadlocks occur.
               }
       }
   }
+
+
+-Examination of individuality
+
+Examine the following lines of code and say whether this code can accurately predict the oddness of a number?
+
+  public boolean oddOrNot(int num) {
+      return num % 2 == 1;
+  }
