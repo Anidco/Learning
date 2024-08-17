@@ -181,3 +181,4 @@ public boolean oddOrNot(int num) {
 
 By using the above code, not only the problem of negative numbers is solved, but the code is also much more optimized.
 Since arithmetic and logical operations are much faster than multiplication and division, the results in the above code snippet are executed at a much higher speed.
+
