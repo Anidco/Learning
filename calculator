@@ -1,4 +1,4 @@
-    *Primary Sitting
+    **Primary Sitting
 
 1:First, we display some primary information about the calculator:
 	
@@ -90,7 +90,7 @@ In addition, the maximum interval for calculation is 2147483647.
 As a result, if we exceed this value, the int data type will overflow. 
 Therefore, we must store the variable in a larger data type, for example, in the double data type.
 
-### final word ###
+### At the end ###
 In this guide, we implemented a simple Java calculator using two different constructs.
 We also made sure that the inputs are validated before running the processes and calculations. 
 I hope it helps!
